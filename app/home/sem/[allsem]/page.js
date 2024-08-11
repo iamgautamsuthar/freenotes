@@ -5,7 +5,6 @@ import { subject } from '@/database/db'
 
 const AllSem = ({ params }) => {
     let sub;
-
     if (params.allsem == 1) {
         sub = subject.sem1;
     } else if (params.allsem == 2) {
@@ -19,6 +18,7 @@ const AllSem = ({ params }) => {
             } />
         )
     }
+
     return (
         <Container child={
             sub.map((items, index) => (

@@ -1,12 +1,12 @@
 import React from 'react'
 
-const TeamCard = ({ name, post, image }) => {
+const TeamCard = ({ name, post, img }) => {
     return (
         <div className='w-64'>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                 <img
                     className="absolute object-cover w-full h-full rounded"
-                    src={image}
+                    src={img}
                     alt="Person"
                 />
             </div>

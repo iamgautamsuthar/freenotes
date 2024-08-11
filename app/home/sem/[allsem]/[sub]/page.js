@@ -9,7 +9,7 @@ const sem_list = [
     ...subject.sem3
 ];
 
-const page = ({ params }) => {
+const Subject = ({ params }) => {
     const subj = sem_list.filter(it => it.urlName == params.sub)
     if (!subj.length || !Array.isArray(subj[0].pdf)) {
         return (
@@ -31,4 +31,4 @@ const page = ({ params }) => {
     )
 }
 
-export default page
+export default Subject

@@ -1,12 +1,11 @@
 'use client'
-import React from 'react'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
     const router = useRouter()
     return (
         router.replace('/home')
     )
 }
 
-export default page
+export default Page

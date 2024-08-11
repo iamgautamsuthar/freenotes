@@ -26,10 +26,10 @@ const Layout = ({ children }) => {
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 ">
                 <div className="relative pt-16 ml-auto ">
                     <div className="text-center cursor-default mx-auto flex justify-center items-center flex-col gap-3">
-                        <h1 className="text-gray-900 font-bold md:text-7xl text-4xl">
+                        <h1 className="text-gray-900 font-bold md:text-7xl text-3xl">
                             Shaping a world with
                         </h1>
-                        <h1 className="font-bold md:text-7xl text-3xl text-purple-600 ">
+                        <h1 className="font-bold md:text-7xl text-2xl text-purple-600 ">
                             {/* <TypewriterComponent
                                 options={
                                     {

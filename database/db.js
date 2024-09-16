@@ -250,6 +250,7 @@ export const subject = {
             text: "BKS",
             link: "/home/sem/2/bks-2",
             urlName: "bks",
+
         },
         {
             text: "OC",
@@ -287,6 +288,28 @@ export const subject = {
             text: "Python / Sqlite",
             link: "/home/sem/3/python-sqlite",
             urlName: "python-sqlite",
+            pdf: [
+                {
+                    text: "Unit 01",
+                    link: "/assets/sem-3/python-sqlite/python-01.pdf"
+                },
+                {
+                    text: "Unit 02",
+                    link: "/assets/sem-3/python-sqlite/python-02.pdf"
+                },
+                {
+                    text: "Unit 03",
+                    link: "/assets/sem-3/python-sqlite/python-03.pdf"
+                },
+                {
+                    text: "Unit 04",
+                    link: "www.google.com"
+                },
+                {
+                    text: "Unit 05",
+                    link: "www.google.com"
+                }
+            ]
         },
         {
             text: "Web - 1",
@@ -312,6 +335,28 @@ export const subject = {
             text: "BKS",
             link: "/home/sem/3/bks-3",
             urlName: "bks-3",
+            pdf: [
+                {
+                    text: "Unit 01",
+                    link: "/assets/sem-3/bks/bks-01.pdf"
+                },
+                {
+                    text: "Unit 02",
+                    link: "www.google.com"
+                },
+                {
+                    text: "Unit 03",
+                    link: "www.google.com"
+                },
+                {
+                    text: "Unit 04",
+                    link: "www.google.com"
+                },
+                {
+                    text: "Unit 05",
+                    link: "www.google.com"
+                }
+            ]
         },
         {
             text: "MIL",
